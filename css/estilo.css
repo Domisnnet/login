@@ -12,20 +12,23 @@ Paleta de cores
     box-sizing: border-box;
 }
 
-main {
+main#principal {
     position: relative;
     height: 100vh;
     width: 100vw;
-    /*background: url(../imagens/background2.jpg); */
-    background-color: black; 
 }
 
 body, html {
+    background: url(../imagens/background2.jpg) no-repeat; 
+    background-size: 40%;
+    background-position: left center;
+    background-color: black; 
     height: 100vh;
     width: 100vw;
 }
 
 section#login {
+    display: flex;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -37,7 +40,7 @@ section#login {
     border-radius: 20px;
 }
 
-section#login > div#imagem {
+#imagem {
     display: block;
     background: url(../imagens/img1.png) no-repeat;
     background-color: #040509;
@@ -45,4 +48,8 @@ section#login > div#imagem {
     background-position: bottom center;
     background-size: contain;
     height: 240px;
+}
+
+#formulario {
+    padding: 10px;
 }
