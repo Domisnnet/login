@@ -10,3 +10,6 @@ Paleta de cores
     padding: 0px;
 }
 
+main {
+    background: url(../imagens/background2.jpg);
+}
